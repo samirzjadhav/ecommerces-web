@@ -23,7 +23,7 @@ function App() {
         </div>
         <div className="sign-up flex gap-[30px] pl-[30px]">
           <a href="">Sign in</a>
-          <div className="flex items-center">
+          <div className="sign-btn flex items-center">
             <button>Get started </button>
             <HiArrowNarrowRight />
           </div>

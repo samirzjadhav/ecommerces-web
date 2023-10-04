@@ -7,19 +7,27 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.logo-heading {
-  @apply text-3xl !important;
+nav {
+  @apply shadow-md;
 }
 
 nav a {
-  @apply text-lg font-medium;
+  @apply text-lg font-normal text-gray-500;
+}
+
+.logo a {
+  @apply text-2xl font-semibold text-gray-500;
+}
+
+.sign-up {
+  @apply flex justify-center items-center;
+}
+.sign-up a {
+  @apply text-xl font-normal text-gray-400;
+}
+
+.sign-btn {
+  @apply text-lg font-medium text-white bg-red-400 px-[20px] py-[10px] rounded-full shadow-lg;
 }
