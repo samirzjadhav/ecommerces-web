@@ -9,6 +9,7 @@ body {
     sans-serif;
 }
 
+/* Navbar section */
 nav {
   @apply shadow-md;
 }
@@ -28,6 +29,32 @@ nav a {
   @apply text-xl font-normal text-gray-400;
 }
 
-.sign-btn {
+.orange-btn {
   @apply text-lg font-medium text-white bg-red-400 px-[20px] py-[10px] rounded-full shadow-lg;
+}
+
+/* Hero Section */
+
+.section.home-hero {
+  @apply pt-[80px] pb-[80px] relative overflow-hidden;
+}
+
+.hero-container {
+  @apply mx-[100px] py-[10px] px-[24px] flex justify-center items-center;
+}
+
+.inner-container {
+  @apply mx-[100px];
+}
+
+.hero-heading {
+  @apply text-6xl font-semibold text-center leading-[1.278em] mb-[10px];
+}
+
+.hero-discription {
+  @apply text-2xl font-normal text-gray-600  flex justify-center items-center mb-[32px];
+}
+
+.hero-btn {
+  @apply py-[14px] px-[30px];
 }

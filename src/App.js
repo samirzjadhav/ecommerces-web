@@ -23,12 +23,34 @@ function App() {
         </div>
         <div className="sign-up flex gap-[30px] pl-[30px]">
           <a href="">Sign in</a>
-          <div className="sign-btn flex items-center">
+          <div className="orange-btn sign-btn flex items-center gap-[10px]">
             <button>Get started </button>
             <HiArrowNarrowRight />
           </div>
         </div>
       </nav>
+
+      <div className="section home-hero">
+        <div className="hero-container">
+          <div className="inner-container">
+            <h1 className="hero-heading">
+              <strong>
+                Engaging and qualifying leads doesn't have to hurt.
+              </strong>
+            </h1>
+            <p className="hero-discription">
+              With Summit, spend more time selling to prospects who fit your
+              ideal customer profile.
+            </p>
+            <div className="sign-up flex gap-[30px] pl-[30px]">
+              <div className="orange-btn hero-btn flex items-center gap-[10px]">
+                <button>Get started </button>
+                <HiArrowNarrowRight />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
