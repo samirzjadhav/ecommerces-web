@@ -1,10 +1,11 @@
+import { Inter } from "next/font/google";
 import { HiChevronDown } from "react-icons/hi";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import "./App.css";
-const HomeImg = require("./img/homepage-hero.png");
-const navImg = require("./img/logo.svg");
+import Images from "/public/img/logo.svg";
 
-function App() {
+const inter = Inter({ subsets: ["latin"] });
+
+export default function Home() {
   return (
     <>
       <nav className=" w-auto flex justify-center items-center gap-[40px] p-[20px]">
@@ -51,11 +52,8 @@ function App() {
               </div>
             </div>
           </div>
-          <img src={HomeImg} alt="" />
         </div>
       </div>
     </>
   );
 }
-
-export default App;
