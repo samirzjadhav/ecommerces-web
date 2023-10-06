@@ -40,7 +40,7 @@ nav a {
 }
 
 .hero-container {
-  @apply mx-[100px] py-[10px] px-[24px] flex justify-center items-center;
+  @apply mx-[100px] py-[10px] px-[24px] flex flex-col justify-center items-center;
 }
 
 .inner-container {

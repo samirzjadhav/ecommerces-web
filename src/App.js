@@ -1,6 +1,8 @@
 import { HiChevronDown } from "react-icons/hi";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import "./App.css";
+const HomeImg = require("./img/homepage-hero.png");
+const navImg = require("./img/logo.svg");
 
 function App() {
   return (
@@ -49,6 +51,7 @@ function App() {
               </div>
             </div>
           </div>
+          <img src={HomeImg} alt="" />
         </div>
       </div>
     </>
