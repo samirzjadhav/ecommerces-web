@@ -54,6 +54,7 @@ export default function Home() {
           </div>
         </div>
         <img src="./img/homepage-hero.png" alt="" />
+        <div className="bg-now"></div>
       </div>
     </>
   );

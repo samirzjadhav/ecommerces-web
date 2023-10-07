@@ -51,3 +51,23 @@ nav a {
 .hero-btn {
   @apply py-[14px] px-[30px];
 }
+
+.home-hero {
+  @apply py-[80px] relative overflow-hidden;
+  background-image: linear-gradient(
+    183deg,
+    #fff 90%,
+    rgba(158, 159, 168, 0.41)
+  );
+}
+
+.bg-now {
+  @apply h-[50px] max-w-[100vw] absolute top-0 bottom-auto left-0 right-0;
+  border-top: 50px solid #fff;
+  border-left: 100vw solid #f7f9fa;
+}
+
+.bg-now {
+  @apply absolute top-auto bottom-0 left-0 right-0;
+  border-top-color: rgba(0, 0, 0, 0);
+}
