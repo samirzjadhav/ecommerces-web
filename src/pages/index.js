@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import { HiChevronDown } from "react-icons/hi";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Images from "/public/img/logo.svg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -9,7 +8,8 @@ export default function Home() {
   return (
     <>
       <nav className=" w-auto flex justify-center items-center gap-[40px] p-[20px]">
-        <div className="logo">
+        <div className="logo flex items-center justify-center">
+          <img src="./img/thunder.png" className="w-[34px] h-[34px]" alt="" />
           <a href="logo-heading">Submit War</a>
         </div>
         <div className="nav-content flex items-center justify-between gap-[20px]">
@@ -53,6 +53,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <img src="./img/homepage-hero.png" alt="" />
       </div>
     </>
   );
