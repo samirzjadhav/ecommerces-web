@@ -28,12 +28,15 @@ nav a {
 
 /* Hero Section */
 
+.container {
+  @apply mx-[100px] py-[10px] px-[24px];
+}
 .section.home-hero {
   @apply pt-[80px] pb-[80px] relative overflow-hidden;
 }
 
 .hero-container {
-  @apply mx-[100px] py-[10px] px-[24px] flex flex-col justify-center items-center;
+  @apply flex flex-col justify-center items-center;
 }
 
 .inner-container {
@@ -70,4 +73,17 @@ nav a {
 .bg-now {
   @apply absolute top-auto bottom-0 left-0 right-0;
   border-top-color: rgba(0, 0, 0, 0);
+}
+
+/* pain container */
+.pain-container {
+  @apply flex;
+}
+
+.pain-item {
+  @apply flex gap-[26px];
+}
+
+.pain-img {
+  @apply w-[50px] h-[50px];
 }
