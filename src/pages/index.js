@@ -60,11 +60,11 @@ export default function Home() {
       <div className="section pain-section">
         <div className="pain-container container">
           <div className="pain-wrapper">
-            <div className="inner-container">
-              <h2 className="">
+            <div className="w-[500px]">
+              <h2 className="home-heading w-full">
                 <strong>The fragmented tools in your funnel are </strong>
                 <span>
-                  <strong>pushing away</strong>
+                  <strong className="merriweather">pushing away</strong>
                 </span>
                 <strong> your prospects.</strong>
               </h2>

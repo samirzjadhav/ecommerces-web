@@ -77,7 +77,8 @@ nav a {
 
 /* pain container */
 .pain-container {
-  @apply flex;
+  @apply grid gap-[50px];
+  grid-template-columns: 1fr 1fr;
 }
 
 .pain-item {
@@ -86,4 +87,25 @@ nav a {
 
 .pain-img {
   @apply w-[50px] h-[50px];
+}
+
+.home-heading {
+  @apply text-[#0a1629] text-[38px] font-bold;
+}
+
+strong {
+  @apply text-[#0a1629] font-bold;
+}
+
+.merriweather {
+  color: #fa5e22;
+  letter-spacing: 0.02em;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#f94e1c 47%, #fd7d2d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: merriweather, sans-serif;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 700;
 }
