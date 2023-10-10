@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+h3 {
+  @apply text-[#0a1629] mt-[0px] mb-[8px] text-[22px] font-bold;
+  line-height: 1.455em;
+}
+
+p {
+  @apply mb-[16px] text-[18px] font-normal;
+}
+
 /* Navbar section */
 nav {
   @apply shadow-md;
@@ -77,16 +86,32 @@ nav a {
 
 /* pain container */
 .pain-container {
-  @apply grid gap-[50px];
-  grid-template-columns: 1fr 1fr;
+  @apply grid;
+  grid-template-columns: 1fr 1.2fr;
+}
+
+.pain-display {
+  @apply sticky top-[20px];
 }
 
 .pain-item {
-  @apply flex gap-[26px];
+  @apply flex  gap-[26px];
+}
+
+.pain-item-icon {
+  @apply mt-[10px];
+}
+
+.pain-item-title {
+  @apply min-h-[32px] items-center text-[26px] flex;
+}
+
+.pain-item-discription {
+  @apply text-gray-400 mb-[16px];
 }
 
 .pain-img {
-  @apply w-[50px] h-[50px];
+  @apply w-[100px] h-[50px];
 }
 
 .home-heading {
@@ -98,14 +123,11 @@ strong {
 }
 
 .merriweather {
-  color: #fa5e22;
+  @apply text-[#fa5e22] text-[42px] italic font-bold;
   letter-spacing: 0.02em;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(#f94e1c 47%, #fd7d2d);
   -webkit-background-clip: text;
   background-clip: text;
   font-family: merriweather, sans-serif;
-  font-size: 42px;
-  font-style: italic;
-  font-weight: 700;
 }

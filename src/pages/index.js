@@ -59,12 +59,12 @@ export default function Home() {
 
       <div className="section pain-section">
         <div className="pain-container container">
-          <div className="pain-wrapper">
-            <div className="w-[500px]">
+          <div className="pain-wrapper max-w-[500px]">
+            <div className="pain-display">
               <h2 className="home-heading w-full">
                 <strong>The fragmented tools in your funnel are </strong>
                 <span>
-                  <strong className="merriweather">pushing away</strong>
+                  <strong className="merriweather">pushing away </strong>
                 </span>
                 <strong> your prospects.</strong>
               </h2>
@@ -76,8 +76,8 @@ export default function Home() {
                 <img src="./img/email.svg" className="pain-img" alt="" />
               </div>
               <div className="pain-item-content">
-                <h3>Impersonal outreach emails</h3>
-                <p>
+                <h3 className="pain-item-title">Impersonal outreach emails</h3>
+                <p className="pain-item-discription">
                   Enriching contacts with the same data as your competitors
                   makes your messages sound inauthentic, lowering open rates.
                 </p>
@@ -89,8 +89,8 @@ export default function Home() {
                 <img src="./img/calls.svg" className="pain-img" alt="" />
               </div>
               <div className="pain-item-content">
-                <h3>Impersonal outreach emails</h3>
-                <p>
+                <h3 className="pain-item-title">Impersonal outreach emails</h3>
+                <p className="pain-item-discription">
                   Enriching contacts with the same data as your competitors
                   makes your messages sound inauthentic, lowering open rates.
                 </p>
@@ -102,8 +102,8 @@ export default function Home() {
                 <img src="./img/under.svg" className="pain-img" alt="" />
               </div>
               <div className="pain-item-content">
-                <h3>Impersonal outreach emails</h3>
-                <p>
+                <h3 className="pain-item-title">Impersonal outreach emails</h3>
+                <p className="pain-item-discription">
                   Enriching contacts with the same data as your competitors
                   makes your messages sound inauthentic, lowering open rates.
                 </p>
@@ -112,15 +112,11 @@ export default function Home() {
 
             <div className="pain-item">
               <div className="pain-item-icon">
-                <img
-                  src="./img/spread.webp"
-                  className="w-[50px] h-[50px]"
-                  alt=""
-                />
+                <img src="./img/spread.webp" className="pain-img" alt="" />
               </div>
               <div className="pain-item-content">
-                <h3>Impersonal outreach emails</h3>
-                <p>
+                <h3 className="pain-item-title">Impersonal outreach emails</h3>
+                <p className="pain-item-discription">
                   Enriching contacts with the same data as your competitors
                   makes your messages sound inauthentic, lowering open rates.
                 </p>
@@ -132,8 +128,8 @@ export default function Home() {
                 <img src="./img/traffic.svg" className="pain-img" alt="" />
               </div>
               <div className="pain-item-content">
-                <h3>Impersonal outreach emails</h3>
-                <p>
+                <h3 className="pain-item-title">Impersonal outreach emails</h3>
+                <p className="pain-item-discription">
                   Enriching contacts with the same data as your competitors
                   makes your messages sound inauthentic, lowering open rates.
                 </p>
@@ -145,8 +141,8 @@ export default function Home() {
                 <img src="./img/treadmill.svg" className="pain-img" alt="" />
               </div>
               <div className="pain-item-content">
-                <h3>Impersonal outreach emails</h3>
-                <p>
+                <h3 className="pain-item-title">Impersonal outreach emails</h3>
+                <p className="pain-item-discription">
                   Enriching contacts with the same data as your competitors
                   makes your messages sound inauthentic, lowering open rates.
                 </p>
