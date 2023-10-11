@@ -131,3 +131,17 @@ strong {
   background-clip: text;
   font-family: merriweather, sans-serif;
 }
+
+/* Logo section*/
+
+.logo-img {
+  @apply mx-auto my-auto;
+}
+
+.logo-heading {
+  @apply text-4xl mb-[10px] font-semibold text-center;
+}
+
+.logo-discription {
+  @apply text-2xl text-center;
+}

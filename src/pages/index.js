@@ -57,8 +57,8 @@ export default function Home() {
         <div className="bg-now"></div>
       </div>
 
-      <div className="section pain-section">
-        <div className="pain-container container">
+      <div className="section pain-section bg-[#f7f9fa]">
+        <div className="pain-container container ">
           <div className="pain-wrapper max-w-[500px]">
             <div className="pain-display">
               <h2 className="home-heading w-full">
@@ -147,6 +147,27 @@ export default function Home() {
                   makes your messages sound inauthentic, lowering open rates.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="section pt-[100px] pb-[100px]">
+        <div className="container">
+          <div className="inner-container">
+            <img
+              src="./img/logo-illustration.webp"
+              className="logo-img"
+              alt=""
+            />
+            <div className="logo-info">
+              <h1 className="pain-item-title logo-heading">
+                Submit war is a sales and marketing platform to attract and
+                qualify leads using engaging, low-code apps.
+              </h1>
+              <p className="pain-item-discription logo-discription">
+                Gain new insights into your customer’s needs and personalize
+                their buying experience.
+              </p>
             </div>
           </div>
         </div>
