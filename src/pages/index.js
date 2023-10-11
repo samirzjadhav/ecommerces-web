@@ -58,7 +58,7 @@ export default function Home() {
       </div>
 
       <div className="section pain-section bg-[#f7f9fa]">
-        <div className="pain-container container ">
+        <div className="pain-container container">
           <div className="pain-wrapper max-w-[500px]">
             <div className="pain-display">
               <h2 className="home-heading w-full">

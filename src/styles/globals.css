@@ -38,7 +38,7 @@ nav a {
 /* Hero Section */
 
 .container {
-  @apply mx-[100px] py-[10px] px-[24px];
+  @apply m-auto py-[10px] px-[24px];
 }
 .section.home-hero {
   @apply pt-[80px] pb-[80px] relative overflow-hidden;
@@ -86,8 +86,8 @@ nav a {
 
 /* pain container */
 .pain-container {
-  @apply grid;
-  grid-template-columns: 1fr 1.2fr;
+  @apply grid pr-[40px] pl-[40px] m-auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 .pain-display {
@@ -102,6 +102,10 @@ nav a {
   @apply mt-[10px];
 }
 
+.pain-item-content {
+  @apply w-[520px];
+}
+
 .pain-item-title {
   @apply min-h-[32px] items-center text-[26px] flex;
 }
@@ -111,7 +115,7 @@ nav a {
 }
 
 .pain-img {
-  @apply w-[100px] h-[50px];
+  @apply w-[50px] h-[50px];
 }
 
 .home-heading {
@@ -135,7 +139,7 @@ strong {
 /* Logo section*/
 
 .logo-img {
-  @apply mx-auto my-auto;
+  @apply mx-auto my-auto mb-[40px];
 }
 
 .logo-heading {
@@ -143,5 +147,5 @@ strong {
 }
 
 .logo-discription {
-  @apply text-2xl text-center;
+  @apply text-xl text-center;
 }
