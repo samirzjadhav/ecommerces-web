@@ -212,6 +212,9 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <div className="section flex justify-center items-center mt-[40px]">
+            <button className="info-btn">Take a Tour</button>
+          </div>
         </div>
       </div>
     </>

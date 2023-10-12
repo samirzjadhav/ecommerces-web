@@ -181,3 +181,15 @@ strong {
 .img-discription {
   @apply ml-[40px] text-[18px] font-normal text-gray-400;
 }
+
+.info-btn {
+  @apply z-[9999] py-[7px] px-[20px] border-[4px] border-solid rounded-[80px] font-medium text-[20px] h-[60px] w-[180px];
+  filter: drop-shadow(0px 0px 15px rgba(26, 19, 72, 0.25));
+  white-space: nowrap;
+  overflow: show;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  background: #ffffff;
+  border-color: #fa5e22;
+  color: #fa5e22;
+}
