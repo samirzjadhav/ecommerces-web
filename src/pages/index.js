@@ -170,7 +170,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="information grid grid-cols-3">
+          <div className="information grid grid-cols-3 gap-[40px]">
             <div className="info-wrapper">
               <div className="img-wrapper">
                 <img src="./img/calculator-illustration.png" alt="" />
@@ -185,26 +185,30 @@ export default function Home() {
             </div>
             <div className="info-wrapper">
               <div className="img-wrapper">
-                <img src="./img/calculator-illustration.png" alt="" />
+                <img src="./img/funnel-illustration.png" alt="" />
               </div>
               <div className="img-content">
-                <h3 className="img-heading">Launch apps without engineering</h3>
+                <h3 className="img-heading">
+                  Win over customers throughout your funnel
+                </h3>
               </div>
               <p className="img-discription">
-                Calculators, forecasts, and simulations help your customers on
-                their journey from problem awareness to purchase
+                Interactive apps are durable assets that increase engagement,
+                brand affinity, and conversion rates.
               </p>
             </div>
             <div className="info-wrapper">
               <div className="img-wrapper">
-                <img src="./img/calculator-illustration.png" alt="" />
+                <img src="./img/profile-illustration.png" alt="" />
               </div>
               <div className="img-content">
-                <h3 className="img-heading">Launch apps without engineering</h3>
+                <h3 className="img-heading">
+                  Capture a rich profile of your buyer
+                </h3>
               </div>
               <p className="img-discription">
-                Calculators, forecasts, and simulations help your customers on
-                their journey from problem awareness to purchase
+                All data inputs and outputs from your apps are tracked and
+                integrated throughout your sales and marketing stack.
               </p>
             </div>
           </div>
