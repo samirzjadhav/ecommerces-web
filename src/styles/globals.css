@@ -52,6 +52,10 @@ nav a {
   @apply mx-[100px];
 }
 
+.hero-img {
+  @apply w-[80%] m-auto;
+}
+
 .hero-heading {
   @apply text-6xl font-semibold text-center leading-[1.278em] mb-[10px];
 }
@@ -111,7 +115,7 @@ nav a {
 }
 
 .pain-item-discription {
-  @apply text-gray-400 mb-[16px];
+  @apply text-gray-400 mb-[70px];
 }
 
 .pain-img {
@@ -148,4 +152,32 @@ strong {
 
 .logo-discription {
   @apply text-xl text-center;
+}
+
+/* imges styled */
+
+.info-wrapper {
+  border-left: 1.5px solid #dbdbdd;
+  text-decoration: none;
+}
+
+.img-wrapper {
+  @apply min-h-[26px] min-w-[36px] mt-[4px] ml-[40px] mb-[16px] visible;
+}
+
+.img-wrapper img {
+  @apply max-w-[190px];
+}
+
+.img-content {
+  @apply pl-[40px] ml-[-1.5px];
+  border-left: 2.5px solid #00acc7;
+}
+
+.img-heading {
+  @apply text-[26px] font-bold;
+}
+
+.img-discription {
+  @apply ml-[40px] text-[18px] font-normal text-gray-400;
 }

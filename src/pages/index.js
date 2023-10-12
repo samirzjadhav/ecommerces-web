@@ -53,7 +53,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img src="./img/homepage-hero.png" alt="" />
+        <img src="./img/homepage-hero.png" className="hero-img" alt="" />
         <div className="bg-now"></div>
       </div>
 
@@ -167,6 +167,44 @@ export default function Home() {
               <p className="pain-item-discription logo-discription">
                 Gain new insights into your customer’s needs and personalize
                 their buying experience.
+              </p>
+            </div>
+          </div>
+          <div className="information grid grid-cols-3">
+            <div className="info-wrapper">
+              <div className="img-wrapper">
+                <img src="./img/calculator-illustration.png" alt="" />
+              </div>
+              <div className="img-content">
+                <h3 className="img-heading">Launch apps without engineering</h3>
+              </div>
+              <p className="img-discription">
+                Calculators, forecasts, and simulations help your customers on
+                their journey from problem awareness to purchase
+              </p>
+            </div>
+            <div className="info-wrapper">
+              <div className="img-wrapper">
+                <img src="./img/calculator-illustration.png" alt="" />
+              </div>
+              <div className="img-content">
+                <h3 className="img-heading">Launch apps without engineering</h3>
+              </div>
+              <p className="img-discription">
+                Calculators, forecasts, and simulations help your customers on
+                their journey from problem awareness to purchase
+              </p>
+            </div>
+            <div className="info-wrapper">
+              <div className="img-wrapper">
+                <img src="./img/calculator-illustration.png" alt="" />
+              </div>
+              <div className="img-content">
+                <h3 className="img-heading">Launch apps without engineering</h3>
+              </div>
+              <p className="img-discription">
+                Calculators, forecasts, and simulations help your customers on
+                their journey from problem awareness to purchase
               </p>
             </div>
           </div>
