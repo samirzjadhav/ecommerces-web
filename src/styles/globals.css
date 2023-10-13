@@ -193,3 +193,21 @@ strong {
   border-color: #fa5e22;
   color: #fa5e22;
 }
+
+/* Engagement section */
+
+.engagement {
+  background-image: linear-gradient(135deg, #f1fbff, #fff);
+}
+
+.enga-title {
+  @apply text-[#00acc7] text-[16px] font-bold uppercase mb-[12px];
+}
+
+.enga-heading {
+  @apply text-[42px] font-bold mb-[12px];
+}
+
+.enga-discription {
+  @apply text-[18px] font-normal;
+}

@@ -217,6 +217,70 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className="section">
+        <div className="inner-container flex items-center">
+          <div className="engagement py-[80px] px-[120px]">
+            <div className="engagement-inner">
+              <div className="enga-title flex items-center gap-[10px]">
+                <img src="./img/engagement.svg" alt="" />
+                <h2>Engagement</h2>
+              </div>
+              <div className="enga-heading">
+                <h2>Generate demand with a powerful, branded toolkit</h2>
+              </div>
+              <p className="enga-discription">
+                Summit lets you launch a branded minisite to host your apps.
+                Start driving traffic by linking from the Resources tab of your
+                main site or relevant blog posts. Each tool lives on a dedicated
+                landing page with an email CTA in the footer.
+              </p>
+              <div className="">
+                <div className="border-b-2 my-[30px]"></div>
+              </div>
+
+              <div className="enga-content flex items-start gap-[10px]">
+                <img
+                  src="./img/rocket.svg"
+                  className="w-[36px] h-[36px]"
+                  alt=""
+                />
+                <div className="">
+                  <h3 className="text-[20px]">Pre-built, ready to use</h3>
+                  <p className="text-[18px] text-gray-400">
+                    Choose from our existing collection of apps targeting a
+                    range of industries.
+                  </p>
+                </div>
+              </div>
+              <div className="enga-content flex items-start gap-[10px]">
+                <img
+                  src="./img/marketing.svg"
+                  className="w-[36px] h-[36px]"
+                  alt=""
+                />
+                <div className="">
+                  <h3 className="text-[20px]">
+                    Real-time lead capture & CTA’s
+                  </h3>
+                  <p className="text-[18px] text-gray-400">
+                    Allow unlimited usage, or ask for an email address to run
+                    your apps.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="enga-btn flex items-center ">
+              <button>See an example</button>
+              <HiArrowNarrowRight />
+            </div>
+          </div>
+          <div className="enga-img ">
+            <img src="./img/engagement.png" alt="" />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
