@@ -271,13 +271,73 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="enga-btn flex items-center ">
-              <button>See an example</button>
+            <div className="enga-btn flex items-center py-[16px] px-[20px] gap-[10px] text-white bg-[#00acc7] w-[200px] rounded-full">
+              <a href="" className="font-bold text-[16px]">
+                See an example
+              </a>
               <HiArrowNarrowRight />
             </div>
           </div>
           <div className="enga-img ">
             <img src="./img/engagement.png" alt="" />
+          </div>
+        </div>
+        <div className="inner-container flex items-center">
+          <div className="enga-img  pl-[20px]">
+            <img src="./img/enrichment.png" alt="" />
+          </div>
+          <div className="engagement py-[80px] px-[120px]">
+            <div className="engagement-inner">
+              <div className="enga-title flex items-center gap-[10px]">
+                <img src="./img/engagement.svg" alt="" />
+                <h2>enrichment</h2>
+              </div>
+              <div className="enga-heading">
+                <h2>Visitors actively enrich their own profiles</h2>
+              </div>
+              <p className="enga-discription">
+                The heart of the platform is sharing insights between you and
+                your customers. Your apps provide answers based on your
+                expertise and the inputs your customers provide (zero-party
+                data). These inputs flow into your CRM as properties on contacts
+                – new attributes to radically upgrade your segmentation and
+                automation sequences.
+              </p>
+              <div className="">
+                <div className="border-b-2 my-[30px]"></div>
+              </div>
+
+              <div className="enga-content flex items-start gap-[10px]">
+                <img
+                  src="./img/profile.svg"
+                  className="w-[36px] h-[36px]"
+                  alt=""
+                />
+                <div className="">
+                  <h3 className="text-[20px]">Send inputs to properties</h3>
+                  <p className="text-[18px] text-gray-400">
+                    Create rich profiles of your contacts using the inputs they
+                    provide across your apps.
+                  </p>
+                </div>
+              </div>
+              <div className="enga-content flex items-start gap-[10px]">
+                <img
+                  src="./img/tracking.svg"
+                  className="w-[36px] h-[36px]"
+                  alt=""
+                />
+                <div className="">
+                  <h3 className="text-[20px]">
+                    1-click integration with popular CRM’s
+                  </h3>
+                  <p className="text-[18px] text-gray-400">
+                    Easily connect to HubSpot, Salesforce and more. No
+                    engineering required.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
