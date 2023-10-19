@@ -340,6 +340,63 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="inner-container flex items-center">
+          <div className="enga-img  pl-[20px]">
+            <img src="./img/enrichment.png" alt="" />
+          </div>
+          <div className="engagement py-[80px] px-[120px]">
+            <div className="engagement-inner">
+              <div className="enga-title flex items-center gap-[10px]">
+                <img src="./img/engagement.svg" alt="" />
+                <h2>EXTENSIBILITY</h2>
+              </div>
+              <div className="enga-heading">
+                <h2>Create and publish new apps without engineering</h2>
+              </div>
+              <p className="enga-discription">
+                The foundation of the platform is a low-code development
+                environment, powered by an infinite canvas and a visual
+                scripting language with spreadsheet-like syntax. With one tool,
+                you can create simple calculators, sophisticated forecasts, or
+                powerful simulations in minutes.
+              </p>
+              <div className="">
+                <div className="border-b-2 my-[30px]"></div>
+              </div>
+
+              <div className="enga-content flex items-start gap-[10px]">
+                <img
+                  src="./img/profile.svg"
+                  className="w-[36px] h-[36px]"
+                  alt=""
+                />
+                <div className="">
+                  <h3 className="text-[20px]">
+                    individual lead profile Rapid development & visualization
+                  </h3>
+                  <p className="text-[18px] text-gray-400">
+                    Easily create tables, charts, graphs, and metrics. Our
+                    WYSIWYG makes it easy.
+                  </p>
+                </div>
+              </div>
+              <div className="enga-content flex items-start gap-[10px]">
+                <img
+                  src="./img/tracking.svg"
+                  className="w-[36px] h-[36px]"
+                  alt=""
+                />
+                <div className="">
+                  <h3 className="text-[20px]">Accessible from anywhere</h3>
+                  <p className="text-[18px] text-gray-400">
+                    Every app can be embedded, hosted in your toolkit, or called
+                    programmatically using its own API.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
