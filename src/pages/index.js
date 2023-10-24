@@ -341,13 +341,10 @@ export default function Home() {
           </div>
         </div>
         <div className="inner-container flex items-center">
-          <div className="enga-img  pl-[20px]">
-            <img src="./img/enrichment.png" alt="" />
-          </div>
           <div className="engagement py-[80px] px-[120px]">
             <div className="engagement-inner">
               <div className="enga-title flex items-center gap-[10px]">
-                <img src="./img/engagement.svg" alt="" />
+                <img src="./img/exten.svg" alt="" />
                 <h2>EXTENSIBILITY</h2>
               </div>
               <div className="enga-heading">
@@ -366,7 +363,7 @@ export default function Home() {
 
               <div className="enga-content flex items-start gap-[10px]">
                 <img
-                  src="./img/profile.svg"
+                  src="./img/individual.svg"
                   className="w-[36px] h-[36px]"
                   alt=""
                 />
@@ -382,7 +379,7 @@ export default function Home() {
               </div>
               <div className="enga-content flex items-start gap-[10px]">
                 <img
-                  src="./img/tracking.svg"
+                  src="./img/earth.svg"
                   className="w-[36px] h-[36px]"
                   alt=""
                 />
@@ -395,6 +392,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="enga-img  pl-[20px]">
+            <img src="./img/extensibility.png" alt="" />
           </div>
         </div>
       </div>
