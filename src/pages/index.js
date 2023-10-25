@@ -412,7 +412,7 @@ export default function Home() {
               Zero assembly or engineering projects required.
             </h1>
             <div className="starter-btn flex items-center">
-              <div className="flex gap-[10px] items-center h-[30px] bg-[#00acc7] rounded-full py-[22px] px-[30px]">
+              <div className="flex gap-[10px] text-[18px] font-medium items-center h-[30px] bg-[#00acc7] rounded-full py-[26px] px-[30px] text-white">
                 <button>Get started</button>
                 <HiArrowNarrowRight />
               </div>
