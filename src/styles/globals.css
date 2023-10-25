@@ -190,6 +190,9 @@ strong {
   text-overflow: ellipsis;
   cursor: pointer;
   background: #ffffff;
+}
+
+.info-orange {
   border-color: #fa5e22;
   color: #fa5e22;
 }
@@ -210,4 +213,7 @@ strong {
 
 .enga-discription {
   @apply text-[18px] font-normal;
+}
+.start-title {
+  @apply ml-[36px] font-bold text-2xl mb-[16px] text-[#00acc7];
 }

@@ -213,7 +213,7 @@ export default function Home() {
             </div>
           </div>
           <div className="section flex justify-center items-center mt-[40px]">
-            <button className="info-btn">Take a Tour</button>
+            <button className="info-btn info-orange">Take a Tour</button>
           </div>
         </div>
       </div>
@@ -395,6 +395,69 @@ export default function Home() {
           </div>
           <div className="enga-img  pl-[20px]">
             <img src="./img/extensibility.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="section pt-[100px] pb-[40px] ">
+        <div className="container">
+          <div className="starter-title flex gap-[10px]">
+            <img src="./img/play.svg" alt="" />
+            <h1 className="uppercase font-bold text-[#00acc7]">
+              How to Get started
+            </h1>
+          </div>
+          <div className="starter flex justify-between mb-[56px]">
+            <h1 className=" text-[40px] font-bold w-[400px]">
+              Zero assembly or engineering projects required.
+            </h1>
+            <div className="starter-btn flex items-center">
+              <div className="flex gap-[10px] items-center h-[30px] bg-[#00acc7] rounded-full py-[22px] px-[30px]">
+                <button>Get started</button>
+                <HiArrowNarrowRight />
+              </div>
+            </div>
+          </div>
+          <div className="information grid grid-cols-3 gap-[40px]">
+            <div className="info-wrapper">
+              <h1 className="start-title">01</h1>
+              <div className="img-content">
+                <h3 className="img-heading">Get a personalized demo</h3>
+              </div>
+              <p className="img-discription">
+                We’ll learn about your go-to-market goals and guide you through
+                Summit’s features, from enrichment to connectivity, to make sure
+                you can get the most out of the platform.
+              </p>
+            </div>
+            <div className="info-wrapper">
+              <h1 className="start-title">02</h1>
+              <div className="img-content">
+                <h3 className="img-heading">We assemble your toolkit</h3>
+              </div>
+              <p className="img-discription">
+                No integration work needed! Just select the apps to include in
+                your toolkit. Onboarding includes custom app development (on
+                request) and training.
+              </p>
+            </div>
+            <div className="info-wrapper">
+              <h1 className="start-title">03</h1>
+              <div className="img-content">
+                <h3 className="img-heading">Publish!</h3>
+              </div>
+              <p className="img-discription">
+                Point your own domain to your toolkit with a simple DNS change,
+                create links from your existing content and pages, and start
+                promoting your new apps to your audience.
+              </p>
+            </div>
+          </div>
+
+          <div className="section flex justify-center items-center mt-[40px]">
+            <button className="info-btn border-[#00acc7] text-[#00acc7]">
+              Take a Tour!
+            </button>
           </div>
         </div>
       </div>
