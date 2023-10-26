@@ -32,7 +32,6 @@ export default function Home() {
           </div>
         </div>
       </nav>
-
       <div className="section home-hero">
         <div className="container hero-container">
           <div className="inner-container">
@@ -56,7 +55,6 @@ export default function Home() {
         <img src="./img/homepage-hero.png" className="hero-img" alt="" />
         <div className="bg-now"></div>
       </div>
-
       <div className="section pain-section bg-[#f7f9fa]">
         <div className="pain-container container">
           <div className="pain-wrapper max-w-[500px]">
@@ -217,7 +215,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="section">
         <div className="inner-container flex items-center">
           <div className="engagement py-[80px] px-[120px]">
@@ -398,7 +395,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="section pt-[100px] pb-[40px] ">
         <div className="container">
           <div className="starter-title flex gap-[10px]">
@@ -458,6 +454,20 @@ export default function Home() {
             <button className="info-btn border-[#00acc7] text-[#00acc7]">
               Take a Tour!
             </button>
+          </div>
+        </div>
+      </div>
+      <div className="cta-card">
+        <div className="container">
+          <div className="inner-container">
+            <h1>
+              Start <strong>engaging</strong> and <strong>enriching</strong>
+              your prospects today.
+            </h1>
+            <div className="flex gap-[20px]">
+              <div className="orange-btn">Schedule a demo</div>
+              <div className="hero-btn shadow-md rounded-full">Learn More</div>
+            </div>
           </div>
         </div>
       </div>
