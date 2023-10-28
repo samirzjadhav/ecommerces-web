@@ -459,7 +459,7 @@ export default function Home() {
       </div>
       <div className="cta-card">
         <div className="container grid grid-cols-2">
-          <div className="inner-container bg-white">
+          <div className="inner-container bg-white relative">
             <h1 className="mb-[30px] text-4xl">
               Start <strong>engaging</strong> and <strong>enriching</strong>{" "}
               your prospects today.
@@ -469,7 +469,7 @@ export default function Home() {
               <div className="hero-btn shadow-md rounded-full">Learn More</div>
             </div>
           </div>
-          <div className="inner-container bg-white">
+          <div className="inner-container bg-white absolute right-[0px]">
             <div className="image-box-1 flex gap-[30px] mb-[20px]">
               {" "}
               <img src="./img/enrichment.png" alt="" />
