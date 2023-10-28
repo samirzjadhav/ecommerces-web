@@ -219,5 +219,5 @@ strong {
 }
 
 .image-box-1 img {
-  @apply w-[180px] z-[100];
+  @apply w-[300px] z-[100];
 }

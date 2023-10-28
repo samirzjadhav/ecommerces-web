@@ -457,8 +457,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="cta-card">
-        <div className="container grid grid-cols-2">
+      <div className="py-[100px] my-[30px] cta-card">
+        <div className=" flex items-center justify-start w-[700px] ">
           <div className="inner-container bg-white relative">
             <h1 className="mb-[30px] text-4xl">
               Start <strong>engaging</strong> and <strong>enriching</strong>{" "}
